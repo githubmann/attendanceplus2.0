@@ -1,8 +1,8 @@
-import Attendance from '../views/Attendance.vue'
-import AttendanceManage from '../views/AttendanceManage.vue'
-import SelectManage from '../views/SelectManage.vue'
-import SelectPunchPosition from '../views/SelectPunchPosition.vue'
-import SelectWifi from '../views/SelectWifi.vue'
+import Attendance from '../views/attendance/Attendance.vue'
+import AttendanceManage from '../views/attendance/AttendanceManage.vue'
+import SelectManage from '../views/attendance/SelectManage.vue'
+import SelectPunchPosition from '../views/attendance/SelectPunchPosition.vue'
+import SelectWifi from '../views/attendance/SelectWifi.vue'
 export let
   routes = [
     {
