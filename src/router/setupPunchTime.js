@@ -11,7 +11,7 @@ const baseUrl = '/attendance/attendanceManage/selectManage/'
 export default {
   routes: [
     {
-      path: baseUrl + '/setUpPunchTime',
+      path: baseUrl + 'setUpPunchTime',
       component: SetUpPunchTime,
       name: 'setUpPunchTime'
     },

@@ -5,7 +5,7 @@
   "author": "aron ruan",
   "private": true,
   "scripts": {
-    "dev": "node build/dev-server.js",
+    "dev": "node build/dev-server.js ",
     "build": "node build/build.js",
     "unit": "karma start test/unit/karma.conf.js --single-run",
     "e2e": "node test/e2e/runner.js",
@@ -13,11 +13,16 @@
     "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs"
   },
   "dependencies": {
+    "eslint": "^3.10.0",
+    "eslint-plugin-promise": "^2.0.1",
+    "eslint-plugin-standard": "^2.0.1",
     "mint-ui": "^2.0.4",
+    "standard": "^8.5.0",
     "vue": "^2.0.1",
     "vue-resource": "^1.0.3",
     "vue-router": "latest",
-    "vuex": "^2.0.0"
+    "vuex": "^2.0.0",
+    "webpack": "^1.13.3"
   },
   "devDependencies": {
     "autoprefixer": "^6.4.0",

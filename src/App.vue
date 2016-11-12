@@ -27,19 +27,20 @@ export default {
   name: 'app',
   data: function () {
     return {
-      selected: true
+      selected: true,
+      nice: 'e'
     }
   }
 }
 </script>
 
 <style>
+  /*将初始化的样式去掉--sss*/
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
